@@ -57,7 +57,6 @@ func TestAccResourceScaffolding(t *testing.T) {
 		Steps: []resource.TestStep{
 			{
 				Config: `
-				// resource "metadata_value" "foo" {
 				resource "metadata_value" "foo" {
 					inputs = {
 						value = 12
@@ -81,7 +80,6 @@ func TestAccResourceScaffolding(t *testing.T) {
 			},
 			{
 				Config: `
-				// resource "metadata_value" "foo" {
 				resource "metadata_value" "foo" {
 					inputs = {
 						value = 13
@@ -105,7 +103,6 @@ func TestAccResourceScaffolding(t *testing.T) {
 			},
 			{
 				Config: `
-				// resource "metadata_value" "foo" {
 				resource "metadata_value" "foo" {
 					inputs = {
 						value = 13
